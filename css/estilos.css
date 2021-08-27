@@ -211,3 +211,115 @@
     height: 2px;
     background-color: #36221c;
 }
+
+.imagebackground1{
+    background-image: url(https://helion.axiomthemes.com/wp-content/uploads/2019/08/extra_bg-1.png);
+}
+
+.elementor-spcer-inner-trans{
+    height: 3.25rem;
+    background-color: none;
+}
+
+.whiteLetter{
+    color: white;
+}
+
+.centrarCuadro{
+    padding: 10% 5% 10% 5%;
+}
+
+.feactureButton{
+    border: solid white;
+    border-radius: 2px;
+    width: 30%;
+    height: 120%;
+}
+
+.sc_button_title{
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.sc_button_title:hover{
+    color: black;
+    font-weight: bold;
+}
+
+.feactureButton:hover{
+    background-color: white;
+}
+
+.footerPrime{
+    background-color: black;
+    color: white;
+}
+
+.centerFooter{
+    margin: auto;
+    width: 80%;
+}
+
+.space-inner-footer{
+    height: 20px;
+}
+
+.shortRight{
+    padding: 0 15px 0 0; ;
+}
+
+.maringsCenter{
+    margin: 8px 0 8px 0;
+}
+
+.lateralPadCenter{
+    padding: 0 15px 0 15px;
+}
+
+.lineBottom{
+    border-bottom: solid 1px gray;
+}
+
+.centerPad{
+    padding: 20px 0 20px 0;
+}
+
+.underline_anim{
+    background-size: 100% 2px;
+    color: white;
+    text-decoration: underline;
+}
+
+.underline_anim:hover{
+    /* color: white;
+    text-decoration: dashed; */
+    
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s; 
+}
+
+.fontWhite{
+    color: white;
+}
+
+.changeColor{
+    color: white;
+}
+
+.changeColor:hover{
+    color: red;
+    padding: 5px;
+    transition: padding .3s;
+}
+
+.reliefColor{
+    background-color: black;
+}

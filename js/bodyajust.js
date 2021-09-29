@@ -26,6 +26,7 @@ document.addEventListener("DOMContentLoaded", function(e) {
       var w3 = window.innerWidth*(1.12);
       var w4 = ((window.innerWidth)*(0.57)*2);
       var w5 = ((window.innerWidth)*(0.57)/2);
+      var w6= ((window.innerWidth)*(0.57)/1.75);
       //var w6 = w2;
       //var w7 = w2*3;
       var w8 = w2*4;
@@ -53,6 +54,7 @@ document.addEventListener("DOMContentLoaded", function(e) {
         document.getElementById('imagebackground2').style.width = "100"+"%";
         document.getElementById('imagebackground1').style.height = "50"+"%";
         document.getElementById('imagebackground2').style.height = "50"+"%";
+        document.getElementById('feactureButtonId').style.width = "30"+"%";
 
       } else if (bodyresp[1].matches) {
         document.getElementById('imageOneColumId').style.float = "above";
@@ -75,12 +77,13 @@ document.addEventListener("DOMContentLoaded", function(e) {
         // imagenes antes footer
         document.getElementById('imagebackground1').style.float = "left";
         document.getElementById('imagebackground2').style.float = "left";
-        document.getElementById('dimension100').style.height = w5+"px";
+        document.getElementById('dimension100').style.height = w6+"px";
         // document.getElementById('dimension100').style.height = "500"+"px";
         document.getElementById('imagebackground1').style.width = "50"+"%";
         document.getElementById('imagebackground2').style.width = "50"+"%";
         document.getElementById('imagebackground1').style.height = "100"+"%";
         document.getElementById('imagebackground2').style.height = "100"+"%";
+        document.getElementById('feactureButtonId').style.width = "40"+"%";
       } else if (bodyresp[2].matches) {
         document.getElementById('imageOneColumId').style.float = "left";
         document.getElementById('TwoimagesColID').style.float = "left";
@@ -102,13 +105,14 @@ document.addEventListener("DOMContentLoaded", function(e) {
         // imagenes antes footer
         document.getElementById('imagebackground1').style.float = "left";
         document.getElementById('imagebackground2').style.float = "left";
-        document.getElementById('dimension100').style.height = w5+"px";
+        document.getElementById('dimension100').style.height = w6+"px";
         // document.getElementById('dimension100').style.height = "500"+"px";
 
         document.getElementById('imagebackground1').style.width = "50"+"%";
         document.getElementById('imagebackground2').style.width = "50"+"%";
         document.getElementById('imagebackground1').style.height = "100"+"%";
         document.getElementById('imagebackground2').style.height = "100"+"%";
+        document.getElementById('feactureButtonId').style.width = "40"+"%";
       } else if (bodyresp[3].matches) {
         document.getElementById('imageOneColumId').style.float = "left";
         document.getElementById('TwoimagesColID').style.float = "left";
@@ -137,6 +141,7 @@ document.addEventListener("DOMContentLoaded", function(e) {
         document.getElementById('imagebackground2').style.width = "50"+"%";
         document.getElementById('imagebackground1').style.height = "100"+"%";
         document.getElementById('imagebackground2').style.height = "100"+"%";
+        document.getElementById('feactureButtonId').style.width = "30"+"%";
       } else if (bodyresp[4].matches) {
         document.getElementById('imageOneColumId').style.float = "left";
         document.getElementById('TwoimagesColID').style.float = "left";
@@ -165,6 +170,7 @@ document.addEventListener("DOMContentLoaded", function(e) {
         document.getElementById('imagebackground2').style.width = "50"+"%";
         document.getElementById('imagebackground1').style.height = "100"+"%";
         document.getElementById('imagebackground2').style.height = "100"+"%";
+        document.getElementById('feactureButtonId').style.width = "30"+"%";
       }
       
     }
@@ -172,3 +178,5 @@ document.addEventListener("DOMContentLoaded", function(e) {
     // call once on load
     positionWindow();
   });
+
+  

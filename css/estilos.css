@@ -880,7 +880,8 @@ header{
         opacity: 1;
         /* text-indent: 0; */
         margin-left: 20%;
-        visibility: visible;
+        color: transparent;
+        visibility: hidden;
       }
     
       to {
@@ -1490,14 +1491,14 @@ header{
 }
 
 .fill_inited{
-    color: white;
+    color: black;
     width:30%;
     background-color: rgb(148, 147, 147);
     /* font-weight: bold; */
 }
 
 .fill_inited::placeholder {
-    color: white;
+    color: black;
     font-weight: bold;
     opacity: 1;
   }
@@ -2230,11 +2231,20 @@ a:-webkit-any-link {
     font-size: 1.5em;
 }
 
+.iconodimensioS2{
+    font-size: 3em;
+}
+
 .columnaEscondida{
     display: none;
     width: 60%;
 }
 
+
+.encabezadoCarusel{
+    width: 100%;
+    text-align: center;
+}
 /* @media(max-width: 768px){
     .columnaEscondida{
         display: block;
@@ -2421,3 +2431,90 @@ transform: rotate(360deg);
     }
     /*! CSS Used fontfaces */
     @font-face{font-family:'fontello';src:url(//helion.axiomthemes.com/wp-content/themes/helion/css/font-icons/css/../font/fontello.eot?28443143);src:url(//helion.axiomthemes.com/wp-content/themes/helion/css/font-icons/css/../font/fontello.eot?28443143#iefix) format('embedded-opentype'),url(//helion.axiomthemes.com/wp-content/themes/helion/css/font-icons/css/../font/fontello.woff2?28443143) format('woff2'),url(//helion.axiomthemes.com/wp-content/themes/helion/css/font-icons/css/../font/fontello.woff?28443143) format('woff'),url(//helion.axiomthemes.com/wp-content/themes/helion/css/font-icons/css/../font/fontello.ttf?28443143) format('truetype'),url(//helion.axiomthemes.com/wp-content/themes/helion/css/font-icons/css/../font/fontello.svg?28443143#fontello) format('svg');font-weight:400;font-style:normal;}
+
+.animado{
+    opacity: 0;
+    transition: all 0.5s;
+
+}
+
+.animado2{
+    opacity: 0;
+    transition: all 0.5s;
+
+}
+
+.animado3{
+    opacity: 0;
+    transition: all 0.5s;
+
+}
+
+.animadoAppear{
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.animadoAppear2{
+    opacity: 0;
+    transition: all 1s;
+}
+
+.animadoAppear3{
+    opacity: 0;
+    transition: all 2s;
+}
+
+.animadoAppear4{
+    opacity: 0;
+    transition: all 3s;
+}
+
+.imagebackground1 .centrarCuadro2 .animadoAppear5{
+    opacity: 0;
+    transition: all 1s;
+}
+
+.animadoAba{
+    opacity: 0;
+    transition: all 0.5s;
+
+}
+
+.mostrarDesdeArriba{
+    animation: mostrarDesdeArriba 1s;
+    /* animation-delay: 0.3s; */
+}
+
+@keyframes mostrarDesdeArriba{
+    0%{
+        transform: translateY(60px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+
+.mostrarDesdeArriba2{
+    animation: mostrarDesdeArriba 1.5s;
+}
+
+.mostrarDesdeArriba3{
+    animation: mostrarDesdeArriba 2s;
+}
+
+
+.mostrarDesdeAbajo{
+    animation: mostrarDesdeAbajo 1s;
+    /* animation-delay: 0.3s; */
+}
+
+@keyframes mostrarDesdeAbajo{
+    0%{
+        transform: translateY(-60px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}

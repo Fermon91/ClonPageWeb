@@ -40,6 +40,7 @@ document.
 
 function updateSlidePosition(){
     for(let slide of slides){
+        // document.getElementById("imagenPar").style.transform="scale(1.3)";
         slide.classList.remove('carusel_item--visible');
         slide.classList.add('carusel_item--hidden');
     }
@@ -49,8 +50,10 @@ function updateSlidePosition(){
 
 function colorNum(){
     if(slidePosition = 0){
+        // document.getElementById("imagenPar").style.transform="scale(1.3)";
         document.getElementById("carusel_button-01").style.color="red";
     }else{
+        // document.getElementById("imagenPar").style.transform="scale(1.3)";
         document.getElementById("carusel_button-01").style.color="red";
     }
 }
@@ -62,10 +65,12 @@ function moveToNextSlide(){
     if(slidePosition == totalSlides - 1){
         document.getElementById("carusel_button-01").style.color="red";
         document.getElementById("carusel_button-02").style.color="white";
+        // document.getElementById("imagenPar").style.transform="scale(1.3)";
         slidePosition = 0;
     }else{
         document.getElementById("carusel_button-02").style.color="red";
         document.getElementById("carusel_button-01").style.color="white";
+        // document.getElementById("imagenPar").style.transform="scale(1.3)";
         slidePosition++;
     }
     updateSlidePosition();
@@ -78,10 +83,12 @@ function moveToPrevSlide(){
     if(slidePosition == 0){
         document.getElementById("carusel_button-02").style.color="red";
         document.getElementById("carusel_button-01").style.color="white";
+        // document.getElementById("imagenPar").style.transform="scale(1.3)";
         slidePosition = totalSlides -1;
     }else{
         document.getElementById("carusel_button-01").style.color="red";
         document.getElementById("carusel_button-02").style.color="white";
+        // document.getElementById("imagenPar").style.transform="scale(1.3)";
         slidePosition--;
     }
     updateSlidePosition();  
@@ -92,6 +99,7 @@ function showImage1(){
     slidePosition = 0;
     document.getElementById("carusel_button-01").style.color="red";
     document.getElementById("carusel_button-02").style.color="white";
+    // document.getElementById("imagenPar").style.transform="scale(1.3)";
     updateSlidePosition();
     // contador = 0;
 }
@@ -100,6 +108,7 @@ function showImage2(){
     slidePosition = 1;
     document.getElementById("carusel_button-02").style.color="red";
     document.getElementById("carusel_button-01").style.color="white";
+    // document.getElementById("imagenPar").style.transform="scale(1.3)";
     updateSlidePosition();
     // contador = 0;
 }

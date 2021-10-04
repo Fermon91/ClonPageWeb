@@ -52,6 +52,9 @@ button.addEventListener('click',function(){
     document.getElementById('esondidaX').style.display = "block";
     document.getElementById('rompedorColumnas2').style.display = "block";
     document.getElementById('hideSubMenu').style.display = "block";
+    // document.getElementById('mostrar2').style.width = "auto";
+    document.getElementById('mostrar2').style.width = "400"+"px";
+    // document.getElementById('mostrar2').style.font-size = "6";
     // document.getElementById('maxHeight2').style.height = "200px";
     // document.getElementById('maxHeight2').style.min-height == "1000px";  
 })
@@ -64,6 +67,8 @@ button2.addEventListener('click',function(){
     // let x2 = document.getElementsByClassName('helionHeight');
     // x2.style.backgroundColor = 'red';
     // document.getElementsByClassName('helionHeight').style.backgroundColor = 'red';
+    $("#SubliberarSubmenu1").slideUp();
+    $("#SubliberarSubmenu2").slideUp();
     $("#liberarSubmenu").slideUp();
     $("#liberarSubmenu2").slideUp();
     $("#liberarSubmenu3").slideUp();
@@ -87,6 +92,8 @@ button2.addEventListener('click',function(){
     document.getElementById('esondidaX').style.display = "none";
     document.getElementById('rompedorColumnas2').style.display = "none";
     document.getElementById('hideSubMenu').style.display = "none";
+    document.getElementById('mostrar2').style.width = "auto";
+    // document.getElementById('mostrar2').style.font-size = "3";
     $("#maxHeight3").slideUp();
     $("#liberadorSubmenu").fadeIn();
     $("#liberadorSubmenu2").fadeIn();
@@ -98,7 +105,6 @@ button2.addEventListener('click',function(){
     
     // document.getElementById('maxHeight3').style.display = "none";
     // 
-    
 })
 
 
@@ -128,8 +134,8 @@ document.addEventListener("DOMContentLoaded", function(e) {
       // window.matchMedia("(min-width: 961px) and (max-width: 2000px)"),
       window.matchMedia("(max-width: 768px)"),
       window.matchMedia("(min-width: 769px) and (max-width: 864px)"),
-      window.matchMedia("(min-width: 865px) and (max-width: 1094px)"),
-      window.matchMedia("(min-width: 1095px) and (max-width: 2000px)"),
+      window.matchMedia("(min-width: 865px) and (max-width: 1099px)"),
+      window.matchMedia("(min-width: 1100px) and (max-width: 2000px)"),
     ]
     
     // event listeners
@@ -140,7 +146,7 @@ document.addEventListener("DOMContentLoaded", function(e) {
     // matches methods
     function mqh(){
       if (mqls[0].matches) {
-        console.log("CALLBACK (max-width: 400px)");
+        // console.log("CALLBACK (max-width: 400px)");
         document.getElementById('mostrar2').style.display = "none";
         document.getElementById('liberadorSubmenu7').style.display = "none";
         document.getElementById('liberadorSubmenu5').style.display = "block";
@@ -155,12 +161,13 @@ document.addEventListener("DOMContentLoaded", function(e) {
         document.getElementById('SubsubmenuHid1').style.display = "block";
         document.getElementById('maxHeight3').style.display = "none";
 
-        console.log("CALLBACK (max-width: 900px)");
+        // console.log("CALLBACK (max-width: 900px)");
         document.getElementById('esondidaX').style.display = "none";
         document.getElementById('mostrar2').style.display = "block";
         document.getElementById('rompedorColumnas2').style.display = "none"; 
         document.getElementById('desaparcer2').style.display = "block";
         document.getElementById('hideSubMenu').style.display = "none";
+        document.getElementById('mostrar2').style.width = "auto";
         
       } else if (mqls[2].matches) {
         document.getElementById('liberadorSubmenu7').style.display = "block";
@@ -174,6 +181,8 @@ document.addEventListener("DOMContentLoaded", function(e) {
         document.getElementById('rompedorColumnas2').style.display = "none"; 
         document.getElementById('desaparcer2').style.display = "block";
         document.getElementById('hideSubMenu').style.display = "none";
+        document.getElementById('mostrar2').style.width = "auto";
+
         
 
       }else if (mqls[3].matches) {
@@ -187,9 +196,9 @@ document.addEventListener("DOMContentLoaded", function(e) {
         document.getElementById('rompedorColumnas2').style.display = "none"; 
         document.getElementById('desaparcer2').style.display = "block";
         document.getElementById('hideSubMenu').style.display = "none";
-        
+        document.getElementById('mostrar2').style.width = "auto";
       }
-      console.log("window.innerWidth: " + window.innerWidth);
+      // console.log("window.innerWidth: " + window.innerWidth);
     }
 
     // call once on load

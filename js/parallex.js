@@ -48,8 +48,8 @@
             const x = (window.innerWidth - e.pageX*moving_value)/150;
             const y = (window.innerHeight - e.pageY*moving_value)/150;
 
-            move.style.transform = "translateX(" + x + "px) translateY(" + y + "px) scale(1.4)";
+            move.style.transform = "translateX(" + x + "px) translateY(" + y + "px) scale(1.3)";
             
-            console.log("saludos desde el parallex");
+            // console.log("saludos desde el parallex");
         });
         }

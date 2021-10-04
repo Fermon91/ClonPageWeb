@@ -121,6 +121,23 @@ function mostrarScroll8(){
     }
 }
 
+// let animadotitle = document.querySelectorAll(".maxHeight");
+
+// function mostrarScrollTitle(){
+//     let scrollTop = document.documentElement.scrollTop;
+//     for (var i=0; i < animadotitle.length; i++) {
+//         let alturaAnimadotitle = animadotitle[i].offsetTop;
+
+//         if(alturaAnimadotitle < scrollTop-500) {
+//             // if(i<=1){
+//                 animadotitle[i].style.background-color="black";
+//             // }else{
+//             //     animado[i].style.opacity = 1;
+//             // }
+//         }
+//     }
+// }
+
 
 
 window.addEventListener('scroll', mostrarScroll);
@@ -132,3 +149,4 @@ window.addEventListener('scroll', mostrarScroll6);
 window.addEventListener('scroll', mostrarScroll7);
 window.addEventListener('scroll', mostrarScroll8);
 window.addEventListener('scroll', mostrarScroll9);
+window.addEventListener('scroll', mostrarScrollTitle);

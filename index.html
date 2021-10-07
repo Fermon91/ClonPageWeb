@@ -20,9 +20,9 @@
           <div class="">
             <div class="maxHeight" id="maxHeight2">
               <div id="maxHeight3">
-              <div class="" id="esondidaX">
-                <button class="Xfeat2" id="quitarMenuReducido2"> 
-                  <span>X</span>
+              <div class="Xfeat2" id="esondidaX">
+                <button class="rotateIcon2" id="quitarMenuReducido2"> 
+                  <span class=""><i class="bi bi-x-lg"></i></span>
                 </button>
               </div>
               </div>
@@ -30,9 +30,9 @@
                 <div class="row ajustarArriba">
                   <div class="col-11 backWhite"></div>
                   <div class="col-1">
-                    <div class="col XfeatSer" id="esondidaXSer">
+                    <div class="XfeatSer" id="esondidaXSer">
                       <button class="quitarMenuSearch2" id="quitarMenuSearch"> 
-                        <span class="rotateIcon">x</span>
+                        <span class="rotateIcon"><i class="bi bi-x-lg"></i></span>
                       </button>
                     </div>
                   </div>
@@ -72,10 +72,12 @@
                 <div class="col-8 acomodo2 elimoment movDown" >
                   <!-- <div class="row"> -->
                     <!-- <div class="col-2"></div> -->
-                    <div class="marginCenter" id="mostrar2">
-                      <ul class="nav3" id="submenu">
-                        <li><a href="#" class="linkprod" id="liberadorSubmenu">Home. <span class="flechaAlaIzq2" id="flechaAlaIzqId2"><i class="bi bi-arrow-right"></i></span></a>
-                            <ul class="submenu estilosubmenu" id="liberarSubmenu">
+                    <div class="empujeMenu"></div>
+                    <!-- menu reducido movil -->
+                    <div class="marginCenter" id="mostrar3">
+                      <ul class="nav3" id="submenu" input="disabled">
+                        <li><a href="#" class="linkprod" id="liberadorSubmenu1">Home. <span class="flechaAlaIzq2" id="flechaAlaIzqId2"><i class="bi bi-arrow-right"></i></span></a>
+                            <ul class="submenu estilosubmenu" id="liberarSubmenu1">
                                 <li><a href="submenu1.html">Design Agency</a></li>
                                 <li><a href="submenu1.html">Photographer 1</a></li>
                                 <li><a href="submenu1.html">Photographer 2</a></li>
@@ -94,25 +96,25 @@
                             </ul>
                         </li>
                         <li><a href="#" class="linkprod" id="liberadorSubmenu2">Page.<i class="bi bi-arrow-right flechaAlaIzq2"></i></a>
-                            <ul class="submenu estilosubmenu" id="liberarSubmenu2">
-                                <li><a href="#" class="submenuAbrir" id="SubliberadorSubmenu1">Portafolio <i class="bi bi-arrow-right cargadoDerecha flechaAlaDerecha"></i></a>
-                                  <ul class="SubSubmenu featureSubmenu" id="SubliberarSubmenu1">
-                                    <li><a href="" class="subSubmenuAbrir">Style 1</a>
-                                    <li><a href="" class="subSubmenuAbrir">Style 2</a>
-                                    <li><a href="" class="subSubmenuAbrir">Style 3</a>
-                                    <li><a href="" class="subSubmenuAbrir">Style 4</a>
-                                    <li><a href="" class="subSubmenuAbrir">Style 5</a>
-                                  </ul>
-                                </li>
-                                <li><a href="#" class="submenuAbrir" id="SubliberadorSubmenu2">Tools</a>
-                                  <ul class="SubSubmenu featureSubmenu" id="SubliberarSubmenu2">
-                                    <li><a href="" class="subSubmenuAbrir">Style 1</a>
-                                    <li><a href="" class="subSubmenuAbrir">Style 2</a>
-                                    <li><a href="" class="subSubmenuAbrir">Style 3</a>
-                                    <li><a href="" class="subSubmenuAbrir">Style 4</a>
-                                  </ul>
-                                </li>
-                            </ul>
+                          <ul class="submenu estilosubmenu" id="liberarSubmenu2">
+                            <li><a href="#" class="" id="SubliberadorSubmenu1">Portafolio <i class="bi bi-arrow-right cargadoDerecha flechaAlaDerecha" id="flechaAlaDerecha2"></i></a>
+                              <ul class=" " id="SubliberarSubmenu1">
+                                <li><a href="" class="">Style 1</a>
+                                <li><a href="" class="">Style 2</a>
+                                <li><a href="" class="">Style 3</a>
+                                <li><a href="" class="">Style 4</a>
+                                <li><a href="" class="">Style 5</a>
+                              </ul>
+                            </li>
+                            <li><a href="#" class="" id="SubliberadorSubmenu2">Tools <i class="bi bi-arrow-right cargadoDerecha flechaAlaDerecha"></i></a>
+                              <ul class="SubSubmenu featureSubmenu" id="SubliberarSubmenu2">
+                                <li><a href="" class="subSubmenuAbrir">Style 1</a>
+                                <li><a href="" class="subSubmenuAbrir">Style 2</a>
+                                <li><a href="" class="subSubmenuAbrir">Style 3</a>
+                                <li><a href="" class="subSubmenuAbrir">Style 4</a>
+                              </ul>
+                            </li>
+                          </ul>
                         </li>
                         <li><a href="#" class="linkprod" id="liberadorSubmenu3">About Us.<i class="bi bi-arrow-right flechaAlaIzq2"></i></a>
                           <ul class="submenu estilosubmenu" id="liberarSubmenu3">
@@ -123,13 +125,30 @@
                         <li><a href="#" class="linkprod" id="liberadorSubmenu4">Blog.<i class="bi bi-arrow-right flechaAlaIzq2"></i></a>
                           <ul class="submenu estilosubmenu" id="liberarSubmenu4">
                             <li><a href="submenu1.html">All Posts </a></li>
-                            <li><a href="submenu1.html">Classic Style</a></li>
-                            <li><a href="submenu1.html">Portfolio Style</a></li>
-                            <li><a href="submenu1.html">Chess Style</a></li>
+                            <li><a href="#" class="" id="SubliberadorSubmenu3">Classic Style <i class="bi bi-arrow-right cargadoDerecha flechaAlaDerecha"></i></a>
+                              <ul class="SubSubmenu featureSubmenu" id="SubliberarSubmenu3">
+                                <li><a href="" class="subSubmenuAbrir">Style 1</a>
+                                <li><a href="" class="subSubmenuAbrir">Style 2</a>
+                              </ul>
+                            </li>
+                            <li><a href="#" class="" id="SubliberadorSubmenu4">Portfolio Style <i class="bi bi-arrow-right cargadoDerecha flechaAlaDerecha"></i></a>
+                              <ul class="SubSubmenu featureSubmenu" id="SubliberarSubmenu4">
+                                <li><a href="" class="subSubmenuAbrir">Style 1</a>
+                                <li><a href="" class="subSubmenuAbrir">Style 2</a>
+                                <li><a href="" class="subSubmenuAbrir">Style 3</a>
+                              </ul>
+                            </li>
+                            <li><a href="#" class="" id="SubliberadorSubmenu5">Chess Style <i class="bi bi-arrow-right cargadoDerecha flechaAlaDerecha"></i></a>
+                              <ul class="SubSubmenu featureSubmenu" id="SubliberarSubmenu5">
+                                <li><a href="" class="subSubmenuAbrir">Style 1</a>
+                                <li><a href="" class="subSubmenuAbrir">Style 2</a>
+                                <li><a href="" class="subSubmenuAbrir">Style 3</a>
+                              </ul>
+                            </li>
                           </ul>
                         </li>
                         <li><a href="#"class="linkprod" id="liberadorSubmenu5">Store.</a></li>
-                        <li><a href="#"class="linkprod cambiored" id="liberadorSubmenu6">Contats.</a>
+                        <li><a href="#"class="linkprod cambiored" id="liberadorSubmenu6">Contats.<i class="bi bi-arrow-right flechaAlaIzq2"></i></a>
                           <ul class="submenu estilosubmenu" id="liberarSubmenu6">
                             <li><a href="submenu1.html">Agency</a></li>
                             <li><a href="submenu1.html">Personal</a></li>
@@ -140,6 +159,103 @@
                           <ul class="submenu estilosubmenu" id="liberarSubmenu7">
                             <li><a href="#" class="submenuAbrir" id="SubsubmenuHid1">Store</a>
                             <li><a href="#" class="submenuAbrir">Contats <i class="bi bi-arrow-right cargadoDerecha flechaAlaDerecha"></i></a>
+                              <ul class="SubSubmenu featureSubmenu">
+                                <li><a href="" class="subSubmenuAbrir">Agency</a>
+                                <li><a href="" class="subSubmenuAbrir">Personal</a>
+                              </ul>
+                            </li>
+                          </ul>
+                        </li>
+                      
+                        <!-- <li class="escondido"><a href=""><i class="bi bi-three-dots-vertical"></i></a></li> -->
+                      </ul>
+                    </div>
+                    <!-- menu reducido movil final -->
+                    <div class="marginCenter" id="mostrar2">
+                      <ul class="nav3" id="submenu" input="disabled">
+                        <li><a href="#" class="linkprod">Home. <span class="flechaAlaIzq2" id="flechaAlaIzqId2"><i class="bi bi-arrow-right"></i></span></a>
+                            <ul class="submenu estilosubmenu" >
+                                <li><a href="submenu1.html">Design Agency</a></li>
+                                <li><a href="submenu1.html">Photographer 1</a></li>
+                                <li><a href="submenu1.html">Photographer 2</a></li>
+                                <li><a href="submenu1.html">Photographer 3</a></li>
+                                <li><a href="submenu1.html">3D Artist</a></li>
+                                <li><a href="submenu1.html">Graphic Designer</a></li>
+                                <li><a href="submenu1.html">Architect</a></li>
+                                <li><a href="submenu1.html">Concept Artist</a></li>
+                                <li><a href="submenu1.html">Character Designer</a></li>
+                                <li><a href="submenu1.html">Motion Graphics</a></li>
+                                <li><a href="submenu1.html">Showcase</a></li>
+                                <li><a href="submenu1.html">Musician</a></li>
+                                <li><a href="submenu1.html">Videographer</a></li>
+                                <li><a href="submenu1.html">Copywriter</a></li>
+                                <li><a href="submenu1.html">Home RTL</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="linkprod" >Page.<i class="bi bi-arrow-right flechaAlaIzq2"></i></a>
+                          <ul class="submenu estilosubmenu" >
+                            <li><a href="#" class="submenuAbrir">Portafolio <i class="bi bi-arrow-right cargadoDerecha flechaAlaDerecha"></i></a>
+                              <ul class="SubSubmenu featureSubmenu">
+                                <li><a href="" class="subSubmenuAbrir">Style 1</a>
+                                <li><a href="" class="subSubmenuAbrir">Style 2</a>
+                                <li><a href="" class="subSubmenuAbrir">Style 3</a>
+                                <li><a href="" class="subSubmenuAbrir">Style 4</a>
+                                <li><a href="" class="subSubmenuAbrir">Style 5</a>
+                              </ul>
+                            </li>
+                            <li><a href="#" class="submenuAbrir">Tools <i class="bi bi-arrow-right cargadoDerecha flechaAlaDerecha"></i></a>
+                              <ul class="SubSubmenu featureSubmenu">
+                                <li><a href="" class="subSubmenuAbrir">Style 1</a>
+                                <li><a href="" class="subSubmenuAbrir">Style 2</a>
+                                <li><a href="" class="subSubmenuAbrir">Style 3</a>
+                                <li><a href="" class="subSubmenuAbrir">Style 4</a>
+                              </ul>
+                            </li>
+                          </ul>
+                        </li>
+                        <li><a href="#" class="linkprod">About Us.<i class="bi bi-arrow-right flechaAlaIzq2"></i></a>
+                          <ul class="submenu estilosubmenu">
+                            <li><a href="submenu1.html">Agency</a></li>
+                            <li><a href="submenu1.html">Personal</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="#" class="linkprod">Blog.<i class="bi bi-arrow-right flechaAlaIzq2"></i></a>
+                          <ul class="submenu estilosubmenu">
+                            <li><a href="submenu1.html">All Posts </a></li>
+                            <li><a href="submenu1.html" class="submenuAbrir">Classic Style <i class="bi bi-arrow-right cargadoDerecha flechaAlaDerecha"></i></a>
+                              <ul class="SubSubmenu featureSubmenu">
+                                <li><a href="" class="subSubmenuAbrir">Style 1</a>
+                                <li><a href="" class="subSubmenuAbrir">Style 2</a>
+                              </ul>
+                            </li>
+                            <li><a href="submenu1.html" class="submenuAbrir">Portfolio Style <i class="bi bi-arrow-right cargadoDerecha flechaAlaDerecha"></i></a>
+                              <ul class="SubSubmenu featureSubmenu">
+                                <li><a href="" class="subSubmenuAbrir">Style 1</a>
+                                <li><a href="" class="subSubmenuAbrir">Style 2</a>
+                                <li><a href="" class="subSubmenuAbrir">Style 3</a>
+                              </ul>
+                            </li>
+                            <li><a href="submenu1.html" class="submenuAbrir">Chess Style <i class="bi bi-arrow-right cargadoDerecha flechaAlaDerecha"></i></a>
+                              <ul class="SubSubmenu featureSubmenu">
+                                <li><a href="" class="subSubmenuAbrir">Style 1</a>
+                                <li><a href="" class="subSubmenuAbrir">Style 2</a>
+                                <li><a href="" class="subSubmenuAbrir">Style 3</a>
+                              </ul>
+                            </li>
+                          </ul>
+                        </li>
+                        <li><a href="#"class="linkprod MenuRet1" id="liberadorSubmenu55">Store.</a></li>
+                        <li><a href="#"class="linkprod cambiored MenuRet2" id="liberadorSubmenu66">Contats.</a>
+                          <ul class="submenu estilosubmenu">
+                            <li><a href="submenu1.html">Agency</a></li>
+                            <li><a href="submenu1.html">Personal</a></li>
+                          </ul>
+                        </li>
+                        <!-- <div class="w-100 dimensiones"></div> -->
+                        <li><a href="#"class="linkprod cambiored MenuAp1" id="liberadorSubmenu77"><i class="bi bi-three-dots-vertical"></i></a>
+                          <ul class="submenu estilosubmenu">
+                            <li><a href="#" class="submenuAbrir MenuAp1Sub1" id="SubsubmenuHid11">Store</a>
+                            <li><a href="#" class="submenuAbrir MenuAp1Sub2">Contats <i class="bi bi-arrow-right cargadoDerecha flechaAlaDerecha"></i></a>
                               <ul class="SubSubmenu featureSubmenu">
                                 <li><a href="" class="subSubmenuAbrir">Agency</a>
                                 <li><a href="" class="subSubmenuAbrir">Personal</a>
@@ -163,7 +279,7 @@
                   <div class="barraMenuIconos movDown">
                     <div class="barraMenuIconosA ">
                       <button class="menuReducido colorBoton" id="menuReducido2"> 
-                      <i class="bi bi-list"></i>
+                      <i class="bi bi-list iconodimensioS"></i>
                       <!-- <i class="bi bi-three-dots-vertical"></i> -->
                       </button>
                       <!-- <label for="btn-menu" class="menuReducido">
@@ -173,7 +289,7 @@
                     <div class="barraMenuIconosB">
                       <div class="AcomodoIconShop">
                         <button class="XShopBut" id="ShopBut">
-                          <span><i class="bi bi-bag iconodimensioS"></i></span>
+                          <span><i class="bi bi-bag iconodimensioS bagShop"></i><span class="circleShop .circleShopUbi">0</span></span>
                         </button>
                       </div>
                     </div>
@@ -234,8 +350,8 @@
             </div>
             <div class="cuadroShop" id="cuadroShop2">
               <div class="XShopfeat" id="">
-                <button class="XShopBut" id="quitarCarro"> 
-                  <span>X</span>
+                <button class="XShopBut rotateIcon2" id="quitarCarro"> 
+                  <span><i class="bi bi-x-lg"></i></span></span>
                 </button>
               </div>
               <span><i class="bi bi-bag iconoAcomodo"></i></span>
@@ -267,7 +383,7 @@
                         <div id="sc_button_586155358 " class="sc_item_button sc_button_wrap sc_item_button_black sc_item_button_bordered sc_title_button_black animationBot">
                             <a href="https://helion.axiomthemes.com/contacts-agency/" class="sc_button sc_button_bordered sc_button_size_normal sc_button_icon_left sc_button_hover_arrow" animation>
                               <span class="sc_button_text">
-                                <span class="TextoEncima botonPrimerImagen dimensionbotonPrimerImagen">get in touch <i class="bi bi-arrow-right cargadoDerecha esconderIcono"></i></span>
+                                <div class="TextoEncima botonPrimerImagen dimensionbotonPrimerImagen fontResp1.5"><span class="dimensionboton2PrimerImagen2 fontResp1">get in touch<i class="bi bi-arrow-right cargadoDerechaNew"></i></span></i></div>
                               </span>
                             </a>  
                         </div>
@@ -277,25 +393,25 @@
                       <div class="TextScroll">
                         <div class="rs_splitted_lines">
                           <div class="rs_splitted_words">
-                            <div class="rs_splitted_char  animationLetterdownL fontResp1">S</div>
-                            <div class="rs_splitted_char animationLetterdownM fontResp1">c</div>
-                            <div class="rs_splitted_char  animationLetterupL fontResp1">r</div>
-                            <div class="rs_splitted_char animationLetterdownM fontResp1">o</div>
-                            <div class="rs_splitted_char animationLetterdownS fontResp1">l</div>
-                            <div class="rs_splitted_char animationLetterdownS fontResp1">l</div>
-                            <div class="rs_splitted_char animationLetterdownS fontResp1"> </div>
+                            <div class="rs_splitted_char  animationLetterdownL">S</div>
+                            <div class="rs_splitted_char animationLetterdownM">c</div>
+                            <div class="rs_splitted_char  animationLetterupL">r</div>
+                            <div class="rs_splitted_char animationLetterdownM">o</div>
+                            <div class="rs_splitted_char animationLetterdownS">l</div>
+                            <div class="rs_splitted_char animationLetterdownS">l</div>
+                            <div class="rs_splitted_char animationLetterdownS"> </div>
                           </div>
                           <div class="rs_splitted_words"> 
-                              <div class="rs_splitted_char animationLetterdownS fontResp1">f</div>
-                              <div class="rs_splitted_char animationLetterdownS fontResp1">o</div>
-                              <div class="rs_splitted_char animationLetterupS fontResp1">r</div>
-                              <div class="rs_splitted_char animationLetterupS fontResp1"> </div>
+                              <div class="rs_splitted_char animationLetterdownS p2">f</div>
+                              <div class="rs_splitted_char animationLetterdownS">o</div>
+                              <div class="rs_splitted_char animationLetterupS">r</div>
+                              <div class="rs_splitted_char animationLetterupS"> </div>
                           </div>
                           <div class="rs_splitted_words">
-                            <div class="rs_splitted_char animationLetterdownM fontResp1">m</div>
-                            <div class="rs_splitted_char animationLetterdownM fontResp1">o</div>
-                            <div class="rs_splitted_char animationLetterupL fontResp1">r</div>
-                            <div class="rs_splitted_char animationLetterdownL fontResp1">e</div>
+                            <div class="rs_splitted_char animationLetterdownM">m</div>
+                            <div class="rs_splitted_char animationLetterdownM">o</div>
+                            <div class="rs_splitted_char animationLetterupL">r</div>
+                            <div class="rs_splitted_char animationLetterdownL">e</div>
                           </div>
                         </div>
                       </div>
@@ -352,8 +468,8 @@
                   </div>
                   
                 </div>
-                <button id="carusel_button-01">01</button>
-                <button id="carusel_button-02">02</button>
+                <button id="carusel_button-01" class="carusel_actions_new">01</button>
+                <button id="carusel_button-02" class="carusel_actions_new">02</button>
                 
                 
 
@@ -1232,11 +1348,11 @@
         </section>
       </footer>
 
-    <div class="ButtonsFixedSrollRight trx_demo_panels">
+    <div class="ButtonsFixedSrollRight trx_demo_panels" id="PanelFixRight">
       <ul>
         <li><a href="" class="IconFixedRight1 hint_left hint_big hint_slide" aria-label="Buy theme"><i class="bi bi-cart3"></i></a></li>
         <li><a href="" class="IconFixedRight2 hint_left hint_big hint_slide" aria-label="Related demos"><i class="bi bi-images"></i></a></li>
-        <li><a href="" class="IconFixedRight3 hint_left hint_big hint_slide" aria-label="Hide panel"><i class="bi bi-window"></i></a></li>
+        <li><a href="#" class="IconFixedRight3 hint_left hint_big hint_slide" aria-label="Hide panel" id="HidePanel"><i class="bi bi-window"></i></a></li>
       </ul>
     </div>
     <div class="ButtonToTopFixedRight mostrarDesdeAbajoArrow2" id="ButtonToTopFixedRight2">

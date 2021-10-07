@@ -27,7 +27,7 @@ button.addEventListener('click',function(){
     // let x2 = document.getElementsByClassName('helionHeight');
     // x2.style.backgroundColor = 'red';
         $("#maxHeight3").slideDown();
-        $("#liberadorSubmenu").hide();
+        $("#liberadorSubmenu1").hide();
         $("#liberadorSubmenu2").hide();
         $("#liberadorSubmenu3").hide();
         $("#liberadorSubmenu4").hide();
@@ -39,7 +39,7 @@ button.addEventListener('click',function(){
         // $("#liberadorSubmenu4").fadeIn(5000);
         // $("#liberadorSubmenu5").fadeIn(6000);
         // $("#liberadorSubmenu6").fadeIn(7000);
-        $("#liberadorSubmenu").fadeIn(1000);
+        $("#liberadorSubmenu1").fadeIn(1000);
         $("#liberadorSubmenu2").fadeIn(1200);
         $("#liberadorSubmenu3").fadeIn(1400);
         $("#liberadorSubmenu4").fadeIn(1600);
@@ -47,13 +47,13 @@ button.addEventListener('click',function(){
         $("#liberadorSubmenu6").fadeIn(2000);
 
     // document.getElementsByClassName('helionHeight').style.backgroundColor = 'red';
-    document.getElementById('mostrar2').style.display = "block";
+    document.getElementById('mostrar3').style.display = "block";
     document.getElementById('desaparcer2').style.display = "none";
     document.getElementById('esondidaX').style.display = "block";
     document.getElementById('rompedorColumnas2').style.display = "block";
     document.getElementById('hideSubMenu').style.display = "block";
     // document.getElementById('mostrar2').style.width = "auto";
-    document.getElementById('mostrar2').style.width = "400"+"px";
+    document.getElementById('mostrar3').style.width = "250"+"px";
     // document.getElementById('mostrar2').style.font-size = "6";
     // document.getElementById('maxHeight2').style.height = "200px";
     // document.getElementById('maxHeight2').style.min-height == "1000px";  
@@ -69,7 +69,7 @@ button2.addEventListener('click',function(){
     // document.getElementsByClassName('helionHeight').style.backgroundColor = 'red';
     $("#SubliberarSubmenu1").slideUp();
     $("#SubliberarSubmenu2").slideUp();
-    $("#liberarSubmenu").slideUp();
+    $("#liberarSubmenu1").slideUp();
     $("#liberarSubmenu2").slideUp();
     $("#liberarSubmenu3").slideUp();
     $("#liberarSubmenu4").slideUp();
@@ -87,12 +87,12 @@ button2.addEventListener('click',function(){
     // $("#liberadorSubmenu").hide();
     // $("#maxHeight3").delay(4000);
     setTimeout(() => {
-    document.getElementById('mostrar2').style.display = "none";
+    document.getElementById('mostrar3').style.display = "none";
     document.getElementById('desaparcer2').style.display = "block";
     document.getElementById('esondidaX').style.display = "none";
     document.getElementById('rompedorColumnas2').style.display = "none";
     document.getElementById('hideSubMenu').style.display = "none";
-    document.getElementById('mostrar2').style.width = "auto";
+    document.getElementById('mostrar3').style.width = "auto";
     // document.getElementById('mostrar2').style.font-size = "3";
     $("#maxHeight3").slideUp();
     $("#liberadorSubmenu").fadeIn();
@@ -148,6 +148,7 @@ document.addEventListener("DOMContentLoaded", function(e) {
       if (mqls[0].matches) {
         // console.log("CALLBACK (max-width: 400px)");
         document.getElementById('mostrar2').style.display = "none";
+        document.getElementById('mostrar3').style.display = "none";
         document.getElementById('liberadorSubmenu7').style.display = "none";
         document.getElementById('liberadorSubmenu5').style.display = "block";
         document.getElementById('liberadorSubmenu6').style.display = "block";
@@ -155,29 +156,32 @@ document.addEventListener("DOMContentLoaded", function(e) {
         // document.getElementById('heightEnc').style.height = "30px";
       } else if (mqls[1].matches) {
         document.getElementById('mostrar2').style.display = "none";
-        document.getElementById('liberadorSubmenu7').style.display = "block";
-        document.getElementById('liberadorSubmenu5').style.display = "none";
-        document.getElementById('liberadorSubmenu6').style.display = "none";
-        document.getElementById('SubsubmenuHid1').style.display = "block";
+        document.getElementById('mostrar3').style.display = "none";
+        document.getElementById('liberadorSubmenu77').style.display = "block";
+        document.getElementById('liberadorSubmenu55').style.display = "none";
+        document.getElementById('liberadorSubmenu66').style.display = "none";
+        document.getElementById('SubsubmenuHid11').style.display = "block";
         document.getElementById('maxHeight3').style.display = "none";
 
         // console.log("CALLBACK (max-width: 900px)");
         document.getElementById('esondidaX').style.display = "none";
         document.getElementById('mostrar2').style.display = "block";
+        document.getElementById('mostrar3').style.display = "none";
         document.getElementById('rompedorColumnas2').style.display = "none"; 
         document.getElementById('desaparcer2').style.display = "block";
         document.getElementById('hideSubMenu').style.display = "none";
         document.getElementById('mostrar2').style.width = "auto";
         
       } else if (mqls[2].matches) {
-        document.getElementById('liberadorSubmenu7').style.display = "block";
-        document.getElementById('liberadorSubmenu5').style.display = "block";
-        document.getElementById('liberadorSubmenu6').style.display = "none";
-        document.getElementById('SubsubmenuHid1').style.display = "none";
+        document.getElementById('liberadorSubmenu77').style.display = "block";
+        document.getElementById('liberadorSubmenu55').style.display = "block";
+        document.getElementById('liberadorSubmenu66').style.display = "none";
+        document.getElementById('SubsubmenuHid11').style.display = "none";
         document.getElementById('maxHeight3').style.display = "none";
 
         document.getElementById('esondidaX').style.display = "none";
         document.getElementById('mostrar2').style.display = "block";
+        document.getElementById('mostrar3').style.display = "none";
         document.getElementById('rompedorColumnas2').style.display = "none"; 
         document.getElementById('desaparcer2').style.display = "block";
         document.getElementById('hideSubMenu').style.display = "none";
@@ -186,13 +190,14 @@ document.addEventListener("DOMContentLoaded", function(e) {
         
 
       }else if (mqls[3].matches) {
-        document.getElementById('liberadorSubmenu7').style.display = "none";
-        document.getElementById('liberadorSubmenu5').style.display = "block";
-        document.getElementById('liberadorSubmenu6').style.display = "block";
+        document.getElementById('liberadorSubmenu77').style.display = "none";
+        document.getElementById('liberadorSubmenu55').style.display = "block";
+        document.getElementById('liberadorSubmenu66').style.display = "block";
         document.getElementById('maxHeight3').style.display = "none";
 
         document.getElementById('esondidaX').style.display = "none";
         document.getElementById('mostrar2').style.display = "block";
+        document.getElementById('mostrar3').style.display = "none";
         document.getElementById('rompedorColumnas2').style.display = "none"; 
         document.getElementById('desaparcer2').style.display = "block";
         document.getElementById('hideSubMenu').style.display = "none";

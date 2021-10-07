@@ -61,3 +61,60 @@ window.addEventListener("scroll",function(){
     //header.classList.toggle("mostrarDesdeAbajoArrow2",window.scrollY>0);
     header.classList.toggle("mostrarDesdeAbajoArrow",window.scrollY>200);
 });
+
+
+// document.addEventListener('DOMContentLoaded', ()=>{
+
+// let buttonRightHide = document.getElementById("HidePanel");
+
+// buttonRightHide.addEventListener('click',function(){
+//     console.log('saludos desde hide')
+//     document.getElementById('PanelFixRight').style.visibility = "hidden";
+// })
+
+// });
+
+let buttonRightHide = document.getElementById("HidePanel");
+buttonRightHide.addEventListener('click',function(){
+    console.log('saludos desde hide')
+    PanelFixRight.classList.add('hide');
+})
+
+
+
+// document.addEventListener('DOMContentLoaded', ()=>{
+//     let width = window.innerWidth;
+//     let resolucion = $(window).width();
+//     if (resolucion >= 769) {
+//         $("#liberadorSubmenu1").hover(function(){$("#liberarSubmenu1").show();$("#liberarSubmenu1").addClass('disabled');},function(){$("#liberarSubmenu1").hide()});
+//         $("#liberarSubmenu1").hover(function(){$("#liberarSubmenu1").show()},function(){$("#liberarSubmenu1").hide()});
+
+//         // $("#liberadorSubmenu1").hover(function(){$(liberarSubmenu1).addClass('open')},function(){$(liberarSubmenu1).removeClass('open')});
+//      }
+//      else {
+//          break;
+//         // $("#liberadorSubmenu1").hover(function(){$("#liberarSubmenu1").hide()});
+//         // $( "#liberarSubmenu1" ).hover(function(){$("#liberarSubmenu1").show()},function(){$("#liberarSubmenu1").show()});
+//         // $("#liberadorSubmenu1").hover();
+//         // $( "#liberarSubmenu1" ).hover();
+//         // $("#liberadorSubmenu1").hover(function(){$(liberarSubmenu1).removeClass('open')},function(){$(liberarSubmenu1).addClass('open')});
+//      }
+
+    
+//     });
+
+
+// document.addEventListener('DOMContentLoaded', ()=>{
+//     var width = window.innerWidth;
+//     var resolucion = $(window).width();
+//     while (resolucion >= 769){
+//         $("#liberadorSubmenu1").hover(function(){$("#liberarSubmenu1").show();$("#liberarSubmenu1").addClass('disabled');},function(){$("#liberarSubmenu1").hide()});
+//         $("#liberarSubmenu1").hover(function(){$("#liberarSubmenu1").show()},function(){$("#liberarSubmenu1").hide()});
+//         }
+//         // else {
+//         // // $("#liberadorSubmenu1").focus(function(){$("#liberarSubmenu1").hide()});
+//         // // $( "#liberarSubmenu1" ).hover(function(){$("#liberarSubmenu1").show()}),function(){$("#liberarSubmenu1").show()};
+//         // }
+
+    
+//     });

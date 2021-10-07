@@ -5,17 +5,6 @@
 /*********************************** */
 
 document.addEventListener("DOMContentLoaded", function(e) {
-    let contSub=0;
-    let contSub2=0;
-    let contSub3=0;
-    let contSub4=0;
-    let contSub5=0;
-    let contSub6=0;
-    let contSubSub1=0;
-    let contSubSub2=0;
-    let contSubSub3=0;
-    let contSubSub4=0;
-    let contSubSub5=0;
     let button = document.getElementById("menuReducido2");
     let button2 = document.getElementById("quitarMenuReducido2");
 
@@ -38,7 +27,18 @@ document.addEventListener("DOMContentLoaded", function(e) {
 
         //aqui termina invecil
       if (mqlr[0].matches) {
-        $("#liberadorSubmenu").click(function()
+        let contSub;
+        let contSub2;
+        let contSub3;
+        let contSub4;
+        let contSub5;
+        let contSub6;
+        let contSubSub1;
+        let contSubSub2;
+        let contSubSub3;
+        let contSubSub4;
+        let contSubSub5;
+        $("#liberadorSubmenu1").click(function()
         {
             if(contSub==0){
                 // for(let x=1;x<=2;x++){
@@ -62,16 +62,38 @@ document.addEventListener("DOMContentLoaded", function(e) {
                 //     contSub5=0;
                 //     contSub6=0;
                 // }
-                $("#liberarSubmenu").slideDown();
+                contSub2=0;
+                contSub3=0;
+                contSub4=0;
+                contSub5=0;
+                contSub6=0;
+                contSubSub1=0;
+                contSubSub2=0;
+                contSubSub3=0;
+                contSubSub4=0;
+                contSubSub5=0;
+                // $("#flechaAlaIzqId2").show();
+                $("#SubliberarSubmenu1").slideUp();
+                $("#SubliberarSubmenu2").slideUp();
+                $("#SubliberarSubmenu3").slideUp();
+                $("#SubliberarSubmenu4").slideUp();
+                $("#SubliberarSubmenu5").slideUp();
+                $("#liberarSubmenu2").slideUp();
+                $("#liberarSubmenu3").slideUp();
+                $("#liberarSubmenu4").slideUp();
+                $("#liberarSubmenu5").slideUp();
+                $("#liberarSubmenu6").slideUp();
+                $("#liberarSubmenu1").slideDown();
                 // $('#flechaAlaIzqId2').style.opacity = 1;
-                console.log("saludos desde SUB liberarSubmenu slideDown");
+                console.log("saludos desde SUB liberarSubmenu1 slideDown");
                 console.log("contador igual a ");
                 console.log(contSub);
-                contSub=contSub+1;
+                contSub=1;
             }else{
-                $("#liberarSubmenu").slideUp();
+                $("#liberarSubmenu1").slideUp();
+                // $("#flechaAlaIzqId2").hide();
                 // $('#flechaAlaIzqId2').style.opacity = 0;
-                console.log("saludos desde SUB liberarSubmenu slideUp");
+                console.log("saludos desde SUB liberarSubmenu1 slideUp");
                 console.log("contador igual a ");
                 console.log(contSub);
                 contSub=0;
@@ -89,22 +111,18 @@ document.addEventListener("DOMContentLoaded", function(e) {
             //     contSubSub1=0;
             //     contSubSub2=0;
             // }
+            
             // for(let w=2;w<=6;w++){
             //     let ValorVentanas = "#liberarSubmenu"+w;
             //     console.log("ValorVentanas es: ");
             //     console.log(ValorVentanas);
             //     $(ValorVentanas).slideUp();
-            //     contSub=0;
-            //     contSub2=0;
-            //     contSub3=0;
-            //     contSub4=0;
-            //     contSub5=0;
-            //     contSub6=0;
             // }
             if(contSub2==0){
+                $("#flechaAlaDerecha2").show();
                 $("#liberarSubmenu2").slideDown();
                 console.log("saludos desde SUB 2 liberarSubmenu slideDown");
-                contSub2=contSub2+1;
+                contSub2=1;
                 //INICIA sub SUb MENU
                 // let contSubSub1=0;
                 // let contSubSub2=0;
@@ -141,8 +159,25 @@ document.addEventListener("DOMContentLoaded", function(e) {
                 //         contSubSub2=0;
                 //     }
                 // });
+                contSub=0;
+                contSub3=0;
+                contSub4=0;
+                contSub5=0;
+                contSub6=0;
+                contSubSub3=0;
+                contSubSub4=0;
+                contSubSub5=0;
+                $("#SubliberarSubmenu3").slideUp();
+                $("#SubliberarSubmenu4").slideUp();
+                $("#SubliberarSubmenu5").slideUp();
+                $("#liberarSubmenu1").slideUp();
+                $("#liberarSubmenu3").slideUp();
+                $("#liberarSubmenu4").slideUp();
+                $("#liberarSubmenu5").slideUp();
+                $("#liberarSubmenu6").slideUp();
                 
             }else{
+                $("#flechaAlaDerecha2").hide();
                 $("#SubliberarSubmenu1").slideUp();
                 $("#SubliberarSubmenu2").slideUp();
                 $("#liberarSubmenu2").slideUp();
@@ -164,22 +199,40 @@ document.addEventListener("DOMContentLoaded", function(e) {
             //     contSubSub1=0;
             //     contSubSub2=0;
             // }
+            
             // for(let w=2;w<=6;w++){
             //     let ValorVentanas = "#liberarSubmenu"+w;
             //     console.log("ValorVentanas es: ");
             //     console.log(ValorVentanas);
             //     $(ValorVentanas).slideUp();
             //     // "contSub"+w ==0;
-            //     contSub=0;
-            //     contSub2=0;
-            //     contSub4=0;
-            //     contSub5=0;
-            //     contSub6=0;
             // }
             if(contSub3==0){
                 $("#liberarSubmenu3").slideDown();
                 console.log("saludos desde SUB 3 liberarSubmenu slideDown");
-                contSub3=contSub3+1;
+                contSub3=1;
+                $("#SubliberarSubmenu1").slideUp();
+                $("#SubliberarSubmenu2").slideUp();
+                $("#SubliberarSubmenu3").slideUp();
+                $("#SubliberarSubmenu4").slideUp();
+                $("#SubliberarSubmenu5").slideUp();
+                $("#liberarSubmenu1").slideUp();
+                $("#liberarSubmenu2").slideUp();
+                $("#liberarSubmenu4").slideUp();
+                $("#liberarSubmenu5").slideUp();
+                $("#liberarSubmenu6").slideUp();
+                contSub=0;
+                contSub2=0;
+                contSub4=0;
+                contSub5=0;
+                contSub6=0;
+                contSubSub1=0;
+                contSubSub2=0;
+                contSubSub3=0;
+                contSubSub4=0;
+                contSubSub5=0;
+                // $("#flechaAlaIzqId2").show();
+                
             }else{
                 $("#liberarSubmenu3").slideUp();
                 console.log("saludos desde SUB 3 liberarSubmenu slideUp");
@@ -210,10 +263,27 @@ document.addEventListener("DOMContentLoaded", function(e) {
             //     contSub6=0;
             // }
             if(contSub4==0){
-                $("#liberarSubmenu4").slideDown();
                 console.log("saludos desde SUB 4 liberarSubmenu slideDown");
-                contSub4=contSub4+1;
+                $("#liberarSubmenu4").slideDown();
+                contSub4=1;
+                $("#SubliberarSubmenu1").slideUp();
+                $("#SubliberarSubmenu2").slideUp();
+                 $("#liberarSubmenu1").slideUp();
+                $("#liberarSubmenu2").slideUp();
+                $("#liberarSubmenu3").slideUp();
+                $("#liberarSubmenu5").slideUp();
+                $("#liberarSubmenu6").slideUp();
+                contSub1=0;
+                contSub2=0;
+                contSub3=0;
+                contSub5=0;
+                contSub6=0; 
+                contSubSub1=0;
+                contSubSub2=0;
             }else{
+                $("#SubliberarSubmenu5").slideUp();
+                $("#SubliberarSubmenu4").slideUp();
+                $("#SubliberarSubmenu3").slideUp();
                 $("#liberarSubmenu4").slideUp();
                 console.log("saludos desde SUB 4 liberarSubmenu slideUp");
                 contSub4=0;
@@ -223,9 +293,31 @@ document.addEventListener("DOMContentLoaded", function(e) {
         $("#liberadorSubmenu6").click(function()
         {
             if(contSub6==0){
+                
                 $("#liberarSubmenu6").slideDown();
+                $("#SubliberarSubmenu1").slideUp();
+                $("#SubliberarSubmenu2").slideUp();
+                $("#SubliberarSubmenu3").slideUp();
+                $("#SubliberarSubmenu4").slideUp();
+                $("#SubliberarSubmenu5").slideUp();
+                $("#liberarSubmenu1").slideUp();
+                $("#liberarSubmenu2").slideUp();
+                $("#liberarSubmenu3").slideUp();
+                $("#liberarSubmenu4").slideUp();
+                $("#liberarSubmenu5").slideUp();
+                contSub6=1;
+                contSub1=0;
+                contSub2=0;
+                contSub3=0;
+                contSub4=0;
+                contSub5=0;
+                contSubSub1=0;
+                contSubSub2=0;
+                contSubSub3=0;
+                contSubSub4=0;
+                contSubSub5=0;
                 console.log("saludos desde SUB custom abierto");
-                contSub6=contSub6+1;
+                contSub6=+1;
             }else{
                 $("#liberarSubmenu6").slideUp();
                 contSub6=0;
@@ -281,21 +373,58 @@ document.addEventListener("DOMContentLoaded", function(e) {
             }
         });
 
-        button.addEventListener('click',function(){
-        let contSub=0;
-        let contSub2=0;
-        let contSub3=0;
-        let contSub4=0;
-        let contSub5=0;
-        let contSub6=0;
-        let contSubSub1=0;
-        let contSubSub2=0;
-        let contSubSub3=0;
-        let contSubSub4=0;
-        let contSubSub5=0;
+        $("#SubliberadorSubmenu3").click(function()
+        {
+            $("#SubliberarSubmenu4").slideUp();
+            $("#SubliberarSubmenu5").slideUp();
+            contSubSub4=0;
+            contSubSub5=0;
+            if(contSubSub3==0){
+                $("#SubliberarSubmenu3").slideDown();
+                console.log("saludos desde SUB 3 liberarSubmenu slideDown");
+                contSubSub3=contSubSub3+1;
+            }else{
+                $("#SubliberarSubmenu3").slideUp();
+                console.log("saludos desde SUB 3 liberarSubmenu slideUp");
+                contSubSub3=0;
+            }
         });
 
-        button2.addEventListener('click',function(){
+        $("#SubliberadorSubmenu4").click(function()
+        {
+            $("#SubliberarSubmenu3").slideUp();
+            $("#SubliberarSubmenu5").slideUp();
+            contSubSub3=0;
+            contSubSub5=0;
+            if(contSubSub4==0){
+                $("#SubliberarSubmenu4").slideDown();
+                console.log("saludos desde SUB 4 liberarSubmenu slideDown");
+                contSubSub4=contSubSub4+1;
+            }else{
+                $("#SubliberarSubmenu4").slideUp();
+                console.log("saludos desde SUB 4 liberarSubmenu slideUp");
+                contSubSub4=0;
+            }
+        });
+
+        $("#SubliberadorSubmenu5").click(function()
+        {
+            $("#SubliberarSubmenu3").slideUp();
+            $("#SubliberarSubmenu4").slideUp();
+            contSubSub3=0;
+            contSubSub4=0;
+            if(contSubSub5==0){
+                $("#SubliberarSubmenu5").slideDown();
+                console.log("saludos desde SUB 5 liberarSubmenu slideDown");
+                contSubSub5=contSubSub5+1;
+            }else{
+                $("#SubliberarSubmenu5").slideUp();
+                console.log("saludos desde SUB 5 liberarSubmenu slideUp");
+                contSubSub5=0;
+            }
+        });
+
+        button.addEventListener('click',function(){
             contSub=0;
             contSub2=0;
             contSub3=0;
@@ -307,29 +436,86 @@ document.addEventListener("DOMContentLoaded", function(e) {
             contSubSub3=0;
             contSubSub4=0;
             contSubSub5=0;
+            // $("#liberadorSubmenu1").hover(function(){$("#liberarSubmenu1").hide()});
+            // $("#liberadorSubmenu1").active(function(){$("#liberarSubmenu1").show()});
+            // $("#liberadorSubmenu1").focus(function(){$("#liberarSubmenu1").show()});
+            // $( "#liberarSubmenu1" ).hover(function(){$("#liberarSubmenu1").hide()});
+        // $( "#liberarSubmenu1" ).hover(function(){$("#liberarSubmenu1").hide()});
+        // $("#liberadorSubmenu1").hover(no-hover);
+        // $("#liberarSubmenu1").hover(function(){$("#liberarSubmenu1").hide()},function(){$("#liberarSubmenu1").hide()});
+        // $("#liberadorSubmenu1").hover("normal", function() { $(this).remove($("#liberarSubmenu1").show()); } );
+        });
+
+        button2.addEventListener('click',function(){
+            // contSub=0;
+            // contSub2=0;
+            // contSub3=0;
+            // contSub4=0;
+            // contSub5=0;
+            // contSub6=0;
+            // contSubSub1=0;
+            // contSubSub2=0;
+            // contSubSub3=0;
+            // contSubSub4=0;
+            // contSubSub5=0;
+            // $("#liberarSubmenu1").slideUp("normal", function() { $(this).remove(); } );
+            $("#liberarSubmenu6").slideUp();
+            $("#SubliberarSubmenu5").slideUp();
+            $("#SubliberarSubmenu4").slideUp();
+            $("#liberarSubmenu4").slideUp();
+            $("#SubliberarSubmenu3").slideUp();
+            $("#liberarSubmenu3").slideUp();
+            $("#SubliberarSubmenu2").slideUp();
+            $("#liberarSubmenu2").slideUp();
+            $("#SubliberarSubmenu1").slideUp();
+            $("#liberarSubmenu1").slideUp();
+            // $("#liberadorSubmenu1").hover("normal", function() { $(this).addClass(); } );
+            // $("#liberadorSubmenu1").hover(function(){$("#liberarSubmenu1").show();$("#liberarSubmenu1").addClass('disabled');},function(){$("#liberarSubmenu1").hide()});
+            // $("#liberarSubmenu1").hover(function(){$("#liberarSubmenu1").show()},function(){$("#liberarSubmenu1").hide()});
+            // $("#liberarSubmenu1").fadeIn();
+            // $("#liberarSubmenu2").fadeIn();
+            // $("#liberarSubmenu3").fadeIn();
+            // $("#liberarSubmenu4").fadeIn();
+            // $("#liberarSubmenu6").fadeIn();
+            // $("#SubliberarSubmenu1").fadeIn();
+            // $("#SubliberarSubmenu2").fadeIn();
         });
 
 
         // se bloquea
       } else if (mqlr[1].matches) {
-        $("#liberarSubmenu").slideUp();
+        // $("#liberarSubmenu1").slideUp();
+        $("#SubliberarSubmenu1").slideUp();
+        $("#SubliberarSubmenu2").slideUp();
+        $("#SubliberarSubmenu3").slideUp();
+        $("#SubliberarSubmenu4").slideUp();
+        $("#SubliberarSubmenu5").slideUp();
+        $("#liberarSubmenu2").slideUp();
+        $("#liberarSubmenu3").slideUp();
+        // document.getElementById('liberarSubmenu2').style.display = "block";
+        // document.getElementById('liberarSubmenu3').style.display = "block";
         $("#liberarSubmenu2").slideUp();
         $("#liberarSubmenu3").slideUp();
         $("#liberarSubmenu4").slideUp();
         $("#liberarSubmenu6").slideUp();
-        $("#SubliberarSubmenu1").slideUp();
-        $("#SubliberarSubmenu2").slideUp();
-        contSub=0;
-        contSub2=0;
-        contSub3=0;
-        contSub4=0;
-        contSub5=0;
-        contSub6=0;
-        contSubSub1=0;
-        contSubSub2=0;
-        contSubSub3=0;
-        contSubSub4=0;
-        contSubSub5=0;
+        // $("#liberarSubmenu1").slideUp("normal", function() { $(this).remove(); } );
+        // document.getElementById("submenu").disabled = true;
+        // $("#liberadorSubmenu1").hover(function(){$("#liberarSubmenu1").show();$("#liberarSubmenu1").addClass('disabled');},function(){$("#liberarSubmenu1").hide()});
+        // $("#liberarSubmenu1").hover(function(){$("#liberarSubmenu1").show()},function(){$("#liberarSubmenu1").hide()});
+        $("#liberarSubmenu1").addClass('disabled');
+        // $( "#liberadorSubmenu1" ).hover($("#liberarSubmenu1").show(),$("#liberarSubmenu1").hide());
+        // $( "#liberadorSubmenu1" ).mouseover($("#liberarSubmenu1").show()),$("#liberarSubmenu1").hide());
+            // contSub=0;
+            // contSub2=0;
+            // contSub3=0;
+            // contSub4=0;
+            // contSub5=0;
+            // contSub6=0;
+            // contSubSub1=0;
+            // contSubSub2=0;
+            // contSubSub3=0;
+            // contSubSub4=0;
+            // contSubSub5=0;
         // $("#liberadorSubmenu6").click(function()
         // {
         //     return 0;

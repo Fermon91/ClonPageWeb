@@ -1697,6 +1697,7 @@ background-color: red;
     color: white;
     width:30%;
     background-color: rgb(148, 147, 147);
+    /* background-color: red; */
     /* font-weight: bold; */
 }
 
@@ -1704,6 +1705,11 @@ background-color: red;
     color: white;
     font-weight: bold;
     opacity: 1;
+}
+
+.backWhite .input[type=text]{
+    border: 2px solid red;
+    border-radius: 4px;
 }
 
 .search_form{
@@ -2857,6 +2863,21 @@ transform: rotate(360deg);
     height: 50px;
 }
 
+.MenuAp1{
+    display:none;
+}
+
+#liberadorSubmenu77{
+    display: none;
+}
+
+.inputLine1{
+    border-bottom: 2px solid yellow;
+    box-sizing: border-box;
+}
+
+
+
 /* aqui copiaste estupido  */
 
 /*! CSS Used from: https://helion.axiomthemes.com/wp-content/plugins/elementor/assets/css/frontend.min.css ; media=all */
@@ -3087,6 +3108,7 @@ transform: rotate(360deg);
 
     .SubSubmenu{
         display: none;
+        width: 100%;
         /* pointer-events: none; */
     }
 
@@ -3162,12 +3184,21 @@ transform: rotate(360deg);
         display: inline-block;
     }
 
-    .linkprod:focus-within .flechaAlaIzq2{
+    .linkprodSub:hover .flechaAlaIzq2{
+        -webkit-animation: myMove39 1000ms, myMove40 1000ms 1000ms infinite;
+        /* -webkit-animation-name: myMove39;
+        -webkit-animation-duration: 1000ms;
+        -webkit-animation-timing-function: ease-in; */
+        position: absolute;
+        left: 58%;
+        display: inline-block;
+    }
+
+    .linkprodSub:focus .flechaAlaIzq2{
         -webkit-animation:  myMove40 1000ms 1000ms infinite;
         /* -webkit-animation-name: myMove39;
         -webkit-animation-duration: 1000ms;
         -webkit-animation-timing-function: ease-in; */
-        opacity:0;
         position: absolute;
         left: 80%;
         display: inline-block;
@@ -3236,10 +3267,13 @@ transform: rotate(360deg);
         }
     } */
     
-.submenuAbrir:hover ~ .SubSubmenu{
-    display: inline-block;
-}
+    .submenuAbrir:hover ~ .SubSubmenu{
+        display: inline-block;
+    }
 
+    .MenuAp1{
+        display:none;
+    }
 
 } 
 

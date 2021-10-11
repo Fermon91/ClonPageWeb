@@ -53,6 +53,7 @@ button5.addEventListener('click',function(){
 
         $("#search_form2").fadeIn(1200);
         $("#esondidaXSer").fadeIn(1000);
+        $("#searchField").focus();
         
         // document.getElementById('heightEnc').style.display = "none";
          //document.getElementById('nuevaAlturaCol2').style.display = "none";
@@ -67,10 +68,13 @@ button5.addEventListener('click',function(){
 
 button6.addEventListener('click',function(){
         //document.getElementById('maxHeight3').style.display = "none";
-        $("#esondidaXSer").fadeOut(1000);
         $("#search_form2").fadeOut(1000);
+        $("#esondidaXSer").fadeOut(2000);
+        setInterval(() => {
+            
+        }, 3000);
         $("#maxHeight5").slideUp();
-        $("#heightEnc").fadeIn(1000);
+        $("#heightEnc").fadeIn(3000);
         //$("#nuevaAlturaCol2").fadeIn(1000);
         //$("#desaparcer2").fadeIn(1000);
         //$("#mostrar2").fadeIn(1000);
@@ -78,8 +82,10 @@ button6.addEventListener('click',function(){
         //  document.getElementById('maxHeight3').style.height = "1000px";
         // document.getElementById('heightEnc').style.display = "block";
          //document.getElementById('nuevaAlturaCol2').style.display = "block";
-        document.getElementById('esondidaXSer').style.display = "none";
-        document.getElementById('search_form2').style.display = "none";
+
+        // document.getElementById('esondidaXSer').style.display = "none";
+        // document.getElementById('search_form2').style.display = "none";
+
          //document.getElementById('desaparcer2').style.display = "block";
          //document.getElementById('mostrar2').style.display = "block";
         console.log('searchClose')
